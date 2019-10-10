@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webease", "Webease.csproj", "{CA80B363-2D7E-406B-BE4E-03C6B08AABD2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizard", "..\Wizard\Wizard.csproj", "{210BFBBC-4B11-458C-B13B-8CEF348121BC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTP", "..\FTP\FTP.csproj", "{1FFC34A3-4335-46A0-9C36-2CCF318469D3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CA80B363-2D7E-406B-BE4E-03C6B08AABD2}.Debug.ActiveCfg = Debug|.NET
+		{CA80B363-2D7E-406B-BE4E-03C6B08AABD2}.Debug.Build.0 = Debug|.NET
+		{CA80B363-2D7E-406B-BE4E-03C6B08AABD2}.Release.ActiveCfg = Release|.NET
+		{CA80B363-2D7E-406B-BE4E-03C6B08AABD2}.Release.Build.0 = Release|.NET
+		{210BFBBC-4B11-458C-B13B-8CEF348121BC}.Debug.ActiveCfg = Debug|.NET
+		{210BFBBC-4B11-458C-B13B-8CEF348121BC}.Debug.Build.0 = Debug|.NET
+		{210BFBBC-4B11-458C-B13B-8CEF348121BC}.Release.ActiveCfg = Release|.NET
+		{210BFBBC-4B11-458C-B13B-8CEF348121BC}.Release.Build.0 = Release|.NET
+		{1FFC34A3-4335-46A0-9C36-2CCF318469D3}.Debug.ActiveCfg = Debug|.NET
+		{1FFC34A3-4335-46A0-9C36-2CCF318469D3}.Debug.Build.0 = Debug|.NET
+		{1FFC34A3-4335-46A0-9C36-2CCF318469D3}.Release.ActiveCfg = Release|.NET
+		{1FFC34A3-4335-46A0-9C36-2CCF318469D3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
